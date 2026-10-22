@@ -41,7 +41,7 @@
 
 需要 **iOS 版 Spotify、可正常使用的 TrollFools**，以及**你自己的 DeepSeek API Key**。目前实测版本为 Spotify **9.1.60（916001969）**，其他版本尚未验证。
 
-1. 在 [Releases](https://github.com/shuke12306/ai-note-for-spotify/releases/latest) 下载 `AINote-1.1.0.dylib`，通过 TrollFools 注入。只保留一份插件；如有旧版 `ClassicalGuide`，先移除。
+1. 在 [Releases](https://github.com/shuke12306/ai-note-for-spotify/releases/latest) 下载 `AINote-1.1.0.dylib`，通过 TrollFools 注入。
 2. 播放歌曲，进入完整播放页，点击「导赏」。
 3. 在「设置」中填写 DeepSeek Key、选择导赏语言。API 用量由你的 DeepSeek 账户计费。
 
