@@ -30,6 +30,11 @@ def main() -> None:
     for folder in ["Sources", "Tests", "scripts", "docs", ".github"]:
         files.extend(p for p in (root / folder).rglob("*")
                      if p.is_file() and "__pycache__" not in p.parts and p.suffix != ".pyc")
+    media_files = {root / "media" / name for name in [
+        "now-playing.png", "guide.png", "guide-actions.png",
+        "interface-settings.png", "guide-settings.png", "demo.mp4",
+    ]}
+    files.extend(media_files)
     files = sorted(set(files))
     secret_pattern = re.compile(r"\bsk-[A-Za-z0-9_-]{20,}|\bgh[pousr]_[A-Za-z0-9_]{20,}|\bgithub_pat_[A-Za-z0-9_]{20,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----")
     for path in files:
@@ -37,6 +42,8 @@ def main() -> None:
             raise ValueError(f"Missing or external source path: {path.name}")
         if path.suffix.lower() in {".dylib", ".ipa", ".p12", ".pem", ".mobileprovision", ".log"}:
             raise ValueError(f"Unexpected source artifact: {path.name}")
+        if path in media_files:
+            continue  # Reviewed screenshots/video are binary, not source text.
         text = path.read_text(encoding="utf-8")
         unexpected = [hit for hit in secret_pattern.finditer(text) if not (
             path.relative_to(root).as_posix() == "Tests/SettingsStoreTests.m" and

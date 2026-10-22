@@ -1,6 +1,6 @@
 # Acknowledgments and external components
 
-The repository contains the plugin's Objective-C/Logos implementation, build scripts, synthetic host tests and documentation. It does not redistribute Spotify, Eevee, TrollFools, Theos, an iOS SDK, music, cover artwork or Canvas video.
+The repository contains the plugin's Objective-C/Logos implementation, build scripts, synthetic host tests, documentation, and maintainer-supplied screenshots and a screen recording demonstrating the plugin. It does not bundle Spotify, Eevee, TrollFools, Theos or an iOS SDK. Third-party UI, album artwork and incidental audio visible or audible in the demonstration media remain the property of their respective owners.
 
 ## Build tools
 
