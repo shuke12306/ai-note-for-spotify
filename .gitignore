@@ -1,0 +1,13 @@
+.theos/
+dist/
+packages/
+__pycache__/
+*.log
+release/
+publication/
+.env
+.env.*
+*.ipa
+*.mobileprovision
+.DS_Store
+Thumbs.db
