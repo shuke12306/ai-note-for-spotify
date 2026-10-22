@@ -41,7 +41,7 @@ Tap **Guide** on the Now Playing screen to translate long track titles, understa
 
 Requires **Spotify on iOS with working TrollFools injection** and **your own DeepSeek API key**. Tested on Spotify **9.1.60 (916001969)**; other versions are unverified.
 
-1. Download `AINote-1.1.0.dylib` from [Releases](https://github.com/shuke12306/ai-note-for-spotify/releases/latest) and inject it with TrollFools. Keep only one copy; remove the old `ClassicalGuide` plugin if present.
+1. Download `AINote-1.1.0.dylib` from [Releases](https://github.com/shuke12306/ai-note-for-spotify/releases/latest) and inject it with TrollFools. 
 2. Play a song, open the full Now Playing screen, and tap **Guide**.
 3. Enter your DeepSeek key in **Settings** and choose the guide language. API usage is billed to your DeepSeek account.
 
