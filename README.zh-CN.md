@@ -4,7 +4,7 @@
 
 看不懂冗长的曲名？点击播放页的「导赏」，就能翻译标题、了解作品背景和演奏者，不用切换应用。
 
-[**下载插件**](https://github.com/shuke12306/ai-note-for-spotify/releases/latest) · [**观看 65 秒实机演示**](https://github.com/shuke12306/ai-note-for-spotify/blob/main/media/demo.mp4) · [English](README.md)
+[**下载插件**](https://github.com/shuke12306/ai-note-for-spotify/releases/latest) · [**实机演示视频 · MP4，65 秒**](https://github.com/shuke12306/ai-note-for-spotify/raw/refs/heads/main/media/demo.mp4) · [English](README.md)
 
 ## 实际效果
 

@@ -4,7 +4,7 @@
 
 Tap **Guide** on the Now Playing screen to translate long track titles, understand the work, and learn about the performers—all without leaving your music.
 
-[**Download**](https://github.com/shuke12306/ai-note-for-spotify/releases/latest) · [**Watch the demo · 65 seconds**](https://github.com/shuke12306/ai-note-for-spotify/blob/main/media/demo.mp4) · [简体中文](README.zh-CN.md)
+[**Download plugin**](https://github.com/shuke12306/ai-note-for-spotify/releases/latest) · [**Demo video · MP4, 65 seconds**](https://github.com/shuke12306/ai-note-for-spotify/raw/refs/heads/main/media/demo.mp4) · [简体中文](README.zh-CN.md)
 
 ## See it in action
 
